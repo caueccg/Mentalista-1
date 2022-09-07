@@ -1,0 +1,26 @@
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Mentalista</title>
+  </head>
+  <body>
+    <header>
+        <h1 class="title">Jogo do Mentalista</h1>
+    </header>
+
+    <main class="main-content">
+        <div class="main-container">
+            <p class="main-p">Escolha um número de 0 a 10!</p>
+            <p id="tentativa"></p>
+            <input type="number" id="numero">
+            <input type="button" id="buttom" onclick="chutar()" value="Chutar">
+            <p id="resultado"></p>
+            <p id="hint"></p>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
